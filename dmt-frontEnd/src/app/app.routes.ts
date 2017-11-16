@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 
+
 export const appRoutes = [
 	{
 		path: '',
@@ -17,8 +18,8 @@ export const appRoutes = [
 		path: 'workspace',
 		loadChildren: './workspace/workspace.module#WorkspaceModule'
 	},
-	{
-		path: '**', // fallback router must in the last
-		component: LoginComponent
-	}
+	// {
+	// 	path: '**', // fallback router must in the last
+	// 	component: LoginComponent
+	// }
 ];

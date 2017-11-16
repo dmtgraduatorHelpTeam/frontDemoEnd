@@ -1,0 +1,295 @@
+ /*-----------------------导航栏背景色-------------------------------------*/
+ #top{
+    background-color: #24a4ff;
+    width:100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  /*---------------------导航栏标题颜色--------------------------------------*/
+.navbar-brand{
+    color: white !important;
+    left: 20px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-bottom: 0px;
+}
+ /*------------------------三角图标的颜色------------------------------------*/
+ .fa-align-justify:before {
+    color: white;
+  }
+  
+  .fa-align-justify:hover{
+      background-color:#2962ff;
+  }
+/* -------------------------------导航栏右侧用户信息和退出样式 ----------------*/
+.top-right {
+    float: right;
+}
+.top-right li{
+    float: left;
+    font-size: 13px;
+    list-style: none;
+    margin-right:5px;
+    margin-top:15%
+}
+.top-right a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+/*---------------------------一级服务字体颜色-----------------------------------*/
+.nav-menu{
+    cursor: pointer;
+    color:aliceblue;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*--------------------当点击导航栏每个服务时，高亮显示----------------------------*/
+.nav-menu:hover{
+    text-decoration: none;
+    /* background-color: #2962ff; */
+    background-color: #247CF2;
+    
+}
+/* ---------------------------点击导航栏服务定位-------------------------------- */
+.nav-menu_active{
+    /* background:#2962ff; */
+    background: #247CF2;
+}
+
+
+/*--------------------------导航栏阴影使得有层次感-------------------------------*/
+.navbar-fixed-top{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+/* ------------------------------导航栏服务更多菜单图表--------------------- */
+
+  .ui-menu.ui-menubar .ui-menubar-root-list>li>a>.ui-submenu-icon {
+    float: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+/* --------------------左侧栏------------------------------------------ */
+#left{
+    top:0px;
+    bottom: 0px;
+    max-height:100%; 
+    margin-top:50px;
+    padding-bottom: 0px;
+    overflow-y:auto;
+    /* 今目标左侧栏背景色 */
+    background-color: #f5f5f5;
+    border:1px solid #f5f5f5;
+    /* 修改左侧栏自适应问题 */
+    float: left;
+    width: 220px;
+    position: fixed;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    /*边框阴影-使得有层次感*/
+    box-shadow: 0 0 15px rgba(136, 92, 92, 0.15), 0 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.active{
+    padding-top: 20px;
+    padding-left: 0px;
+   
+}
+ /* ---------------------------左侧栏左右边距----------------------------------- */
+.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+/* ----------------------左侧栏一级菜单字体颜色-------------------------------- */
+#MenuTest{
+    font-size: 13px;
+    font-family: "Helvetica", "Tahoma", "Microsoft Yahei", "微软雅黑", "Simsun", "宋体";
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+/*-------------------------左侧栏一级菜单点击时高亮显示------------------------ */
+#MenuTest:hover{
+   color: #24a4ff;
+}
+/* --------------------------左侧栏二级菜单字体颜色 ----------------------------*/
+.left_submenu_white{
+    font-size: 12px;
+    font-family: "Helvetica", "Tahoma", "Microsoft Yahei", "微软雅黑", "Simsun", "宋体";
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+/*-------------二级菜单-hover表示当鼠标移动到此菜单时，有标识；cursor：鼠标的图标-----------*/
+.left_submenu_white:hover{
+    /* 今目标蓝色 */
+    color: #24a4ff;
+    cursor: pointer;
+}
+/* -----------------------点击选中之后标识的样式 ---------------------------------------*/
+.left_submenu_active{
+    color: #24a4ff;
+    background:#cde8fc;
+}
+ /*---------------------- 左侧栏三级菜单字体颜色----------------------------------*/
+.left_thirdmenu_white{
+    font-size: 12px;
+    font-family: "Helvetica", "Tahoma", "Microsoft Yahei", "微软雅黑", "Simsun", "宋体";
+    text-decoration: none;
+    color: black;
+    padding-left: 35px;
+}
+  /*---------------------- 三级菜单点击时高亮显示----------------------------- */
+.left_thirdmenu_white:hover{
+      color: #24a4ff;
+}
+    /*---------------------- 左侧栏四级级菜单字体颜色-------------------------- */
+.left_fourmenu_white{
+    font-size: 12px;
+    font-family: "Helvetica", "Tahoma", "Microsoft Yahei", "微软雅黑", "Simsun", "宋体";
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
+  /*----------------------- 四级菜单点击时高亮显示--------------------------- */
+  .left_fourmenu_white:hover{
+    color: #24a4ff;
+  }
+/* ----------------------------左侧栏菜单下拉标识---------------------------------- */
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_457085_thrgckjqavvaemi.eot?t=1509247092632'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_457085_thrgckjqavvaemi.eot?t=1509247092632#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAWcAAsAAAAACCQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZW7kgZY21hcAAAAYAAAABmAAABnM8IaoZnbHlmAAAB6AAAAasAAAHgE4mxbGhlYWQAAAOUAAAALwAAADYPVhblaGhlYQAAA8QAAAAcAAAAJAfeA4VobXR4AAAD4AAAABAAAAAQD+kAAGxvY2EAAAPwAAAACgAAAAoBZgC+bWF4cAAAA/wAAAAfAAAAIAETAF1uYW1lAAAEHAAAAUUAAAJtPlT+fXBvc3QAAAVkAAAANQAAAEf2SzWAeJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2Bk/sU4gYGVgYOpk+kMAwNDP4RmfM1gxMjBwMDEwMrMgBUEpLmmMDgwVDzTZW7438AQw9zA0AAUZgTJAQAnWQybeJzFkMENwCAIRT9iG9N0DW/11nSgnjqCE7OGBfTiBH7zBH6IGABsAFi5lAjQB4LpVZfcZxzuRzxaJz1BY5UspbUpM5F3JM+CvUw7lonWjZ51+n2PyvZdB/pFyR3bq5QO+AfUwxC7AAB4nE1QTWsTURS9572+l6RJZjqTzEcmzcfMmHlKMgEnMUGl040uUrooigtXpUEogu22GxfZCC6kCPoLROifyL7/IZsi+itcTH20Gy+Xeznccy7nXhJEt7/4mvvUoIf0mF7QERHkEJHBOgjVdMyGcELheE2Dq1iFpTga8z14kWy62WyaeLIkTRjoYhJmMzVmCk+mOXuOzO0ArXbw2h7s2vwrtn3V/VQcsB9wevGumafFYrTfzPqN8kXNtlu2/aUshSgztmUaOPPciqhsy+KnMANn3XvEeqi1VHD4tt5v2yefp+edgVcBVis02n3jat8KLJ0fA7dht0o79bIf1OMHTVz8qfqNWif5TTq4vnW1RXxFJrVJEQ32MIYyUHLu3fOE1IzmLnmSeI75/bALTtXL09PLKkYRltHodlPcCIFws0EoRHGzWRwDx4u7elWuvTln7OyVH6Zp8fd/llaxhGnekrGlZhPuTF2z99TSXiKFJIfr6U962Ry57iVIlcVMvpwUa0vEqYUDYVYsC0+tNBZWcT085Hg3wQd7FGn4XUhYGoh4ZBXfnjG9/R/5xlV+AHicY2BkYGAA4jM3Q+bG89t8ZeBmYQCBa9KZJQj6fwMLA3MDkMvBwAQSBQAt8gnzAHicY2BkYGBu+N/AEMPCAAJAkpEBFbAAAEcKAm0EAAAAA+kAAAQAAAAEAAAAAAAAAAB2AL4A8AAAeJxjYGRgYGBhCGRgZQABJiDmAkIGhv9gPgMAERIBcQB4nGWPTU7DMBCFX/oHpBKqqGCH5AViASj9EatuWFRq911036ZOmyqJI8et1ANwHo7ACTgC3IA78EgnmzaWx9+8eWNPANzgBx6O3y33kT1cMjtyDRe4F65TfxBukF+Em2jjVbhF/U3YxzOmwm10YXmD17hi9oR3YQ8dfAjXcI1P4Tr1L+EG+Vu4iTv8CrfQ8erCPuZeV7iNRy/2x1YvnF6p5UHFockikzm/gple75KFrdLqnGtbxCZTg6BfSVOdaVvdU+zXQ+ciFVmTqgmrOkmMyq3Z6tAFG+fyUa8XiR6EJuVYY/62xgKOcQWFJQ6MMUIYZIjK6Og7VWb0r7FDwl57Vj3N53RbFNT/c4UBAvTPXFO6stJ5Ok+BPV8bUnV0K27LnpQ0kV7NSRKyQl7WtlRC6gE2ZVeOEXpc0Yk/KGdI/wAJWm7IAAAAeJxjYGKAAC4G7ICFkYmRmZGFkZWBsYKnOCM1Ly01rwpIpXNlZSbmleSXVmQmMjAAAJYYCfEAAAA=') format('woff'),
+    url('//at.alicdn.com/t/font_457085_thrgckjqavvaemi.ttf?t=1509247092632') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_457085_thrgckjqavvaemi.svg?t=1509247092632#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shenfenzheng:before { content: "\e625"; }
+  
+  .icon-jiantouxia:before { content: "\e62d"; }
+  /* -------------------------------左侧栏菜单前图标-------------------------- */
+  
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_457085_osr521h8t11t6gvi.eot?t=1509247857652'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_457085_osr521h8t11t6gvi.eot?t=1509247857652#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+    url('//at.alicdn.com/t/font_457085_osr521h8t11t6gvi.ttf?t=1509247857652') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_457085_osr521h8t11t6gvi.svg?t=1509247857652#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-9:before { content: "\e600"; }
+  
+  .icon-shenfenzheng:before { content: "\e625"; }
+  
+  .icon-jiantouxia:before { content: "\e62d"; }
+  
+/* -----------------------主体区域----------------------------------------- */
+  #main{
+    /* float:left; */
+    position: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-top:80px;
+    margin-left:15%;
+    margin-right: 0px;
+    /* min-height: 600px; */
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    transition: margin-left 0.3s;
+}
+/* ---------------------------------------------走马灯------------------------- */
+:host ::ng-deep .ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  h3 {
+    color: #fff;
+  }
+ 
+/* ------------------------------------------------------表格----------------------- */
+/* 表格颜色 */
+/* 编辑 */
+/* button.btn.btn-primary1 {
+    color: #fff;
+    background-color: #40D993;
+    border-color: 3BC787;
+}
+
+button.btn.btn-primary1:hover {
+    color:white;
+    background-color: #3BC787;
+} */
+/* 删除 */
+/* .btn-danger {
+    color: #fff;
+    background-color: #E54661;
+    border-color: #d43f3a;
+}
+.btn-danger:hover{
+    color: #fff;
+    background-color: #E52C29;
+} */
+
+/* 添加 */
+/* .btn-primary {
+    color: #fff;
+    background-color: #FF8A43;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF6D33;
+    border-color: #FF6128;
+}
+
+button.btn.btn-primary {
+    color: #fff;
+    background-color: #FF8A43;
+} */
+/* 表格标题颜色 */
+/* element.style {
+    background: #24a4ff;
+} */
+/* 数据标题 */
+/* th.custom-th {
+    background-color: #F3FFFF;
+} */
+/* 没有数据提示 */
+/* <p _ngcontent-c5="" style="color: black;">没有您要查询的相关信息
+</p>
+element.style {
+    color: black;
+    margin-top: 10px;
+}
+*/
